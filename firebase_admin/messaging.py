@@ -368,7 +368,7 @@ class _MessagingService:
     """Service class that implements Firebase Cloud Messaging (FCM) functionality."""
 
     FCM_URL = 'https://fcm.googleapis.com/v1/projects/{0}/messages:send'
-    FCM_BATCH_URL = 'https://fcm.googleapis.com/batch'
+    FCM_BATCH_URL = 'https://www.googleapis.com/batch/drive/v3'
     IID_URL = 'https://iid.googleapis.com'
     IID_HEADERS = {'access_token_auth': 'true'}
     JSON_ENCODER = _messaging_encoder.MessageEncoder()
